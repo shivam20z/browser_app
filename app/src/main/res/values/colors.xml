@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#808080</color>
+    <color name="colorPrimaryDark">#683dd4</color>
+    <color name="colorAccent">#000080</color>
+
+    <color name="red">#F15050</color>
+    <color name="red_dark">#d43c3c</color>
+    <color name="yellow">#EED45A</color>
+    <color name="yellow_dark">#d4bb46</color>
+    <color name="lime">#BCE24A</color>
+    <color name="lime_dark">#9dbf35</color>
+    <color name="green">#48D26B</color>
+    <color name="gray">#808080</color>
+    <color name="green_dark">#36b957</color>
+    <color name="blue">#48DFE1</color>
+    <color name="blue_dark">#37c4c6</color>
+    <color name="darkblue">#5A9CEE</color>
+    <color name="darkblue_dark">#417eca</color>
+    <color name="darkviolet">#7E50F1</color>
+    <color name="darkviolet_dark">#683dd4</color>
+    <color name="violet">#D65AEE</color>
+    <color name="violet_dark">#b33ec9</color>
+    <color name="black">#000000</color>
+    <color name="navy">#000080</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="darkgray">#A9A9A9</color>
+    <color name="silver">#C0C0C0</color>
+    <color name="lightgray">#D3D3D3</color>
+    <color name="chocolate">#D2691E</color>
+    <color name="cornblue">#6495ed</color>
+    <color name="honeydeo">#c1cdc1</color>
+    <color name="midnightblue">#191970</color>
+    <color name="dodgerblue">#1e90ff</color>
+
+</resources>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    android:id="@+id/container1"
+    android:orientation="vertical"
+    android:background="@drawable/networkimage"
+    tools:context=".web2">
+
+
+
+        <ScrollView
+            android:id="@+id/container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+
+        <ProgressBar android:id="@+id/pb1"
+            android:layout_marginTop="70dp"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:padding="2dip">
+        </ProgressBar>
+
+
+        <LinearLayout
+            android:layout_marginTop="70dp"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginHorizontal="10dp"
+            android:orientation="horizontal">
+
+
+
+
+
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_width="270dp"
+                    android:layout_height="35dp"
+                    android:layout_marginTop="2dp"
+                    android:background="@drawable/edit_text"
+                    android:drawableLeft="@drawable/search"
+                    android:backgroundTint="@color/silver"
+                    android:hint="Enter Url"
+                    android:inputType="text"
+                    android:textColorHint="@color/black" />
+
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:layout_marginHorizontal="5dp"
+                    android:layout_marginTop="1dp"
+                    android:background="@drawable/button_round"
+                    android:text="Go"
+                    android:textAllCaps="false" />
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+                        <WebView
+                            android:id="@+id/webview"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                        </WebView>
+
+
+
+
+
+                </LinearLayout>
+
+
+
+
+        </ScrollView>
+
+
+
+
+
+
+
+
+</LinearLayout>

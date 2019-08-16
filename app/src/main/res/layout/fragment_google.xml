@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/cup"
+    tools:context=".web">
+
+
+    <ScrollView
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical">
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ProgressBar android:id="@+id/pb1"
+        android:layout_marginTop="70dp"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:padding="2dip">
+    </ProgressBar>
+
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/google" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginHorizontal="10dp"
+        android:orientation="horizontal">
+
+
+        <EditText
+            android:id="@+id/et2"
+            android:layout_width="270dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="3dp"
+            android:background="@drawable/edit_text"
+            android:backgroundTint="@color/silver"
+            android:hint="Type Here..."
+            android:drawableLeft="@drawable/search"
+            android:inputType="text"
+            android:textColorHint="@color/black" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_marginHorizontal="5dp"
+            android:layout_marginTop="2dp"
+            android:background="@drawable/button_round"
+            android:text="Search"
+            android:textAllCaps="false" />
+
+
+    </LinearLayout>
+
+
+            <WebView
+                android:id="@+id/webview2"
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            </WebView>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</LinearLayout>
